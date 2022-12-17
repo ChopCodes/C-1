@@ -1,5 +1,5 @@
 import time
-seconds = input("Enter the number in seconds, the excat time you want a nuclear disaster")
+seconds = input("Enter the number in seconds, the excat time you want a nuclear disaster : ")
 def gettime(seconds):
     while seconds > 0 :
         min = int(seconds/60)
